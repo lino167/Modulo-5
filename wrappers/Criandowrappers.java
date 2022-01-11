@@ -4,14 +4,14 @@ public class Criandowrappers {
 
     public static void main(String[] args) {
         
-    short num1 = 1;
-    byte num2 = 2;
-    int num3 = 3;
-    long num4 = 4;
-    float num5 = 5.5f;
-    double num6 = 6.6666;
-    boolean flag = true;
-    char a = 'A';
+    Short num1 = new Short((short)1);
+    Byte num2 = new Byte((byte)2);
+    Integer num3 = new Integer(3);
+    Long num4 = new Long(4);
+    Float num5 = new Float(5.5f);
+    Double num6 = new Double(6.6666);
+    Boolean flag = new Boolean(true);
+    Character a = new Character('A');
 
     System.out.println(num1);
     System.out.println(num2);
